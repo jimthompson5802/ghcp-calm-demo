@@ -14,32 +14,23 @@ CALM is a declarative, JSON-based modeling language used to describe complex sys
 
 ## CALM Components Demonstrated
 
-- **Nodes** – System components (services, databases, user interfaces)
-- **Relationships** – Connections and interactions between components
-- **Interfaces** – Communication patterns and schemas
-- **Flows** – Business processes across the architecture
-- **Controls** – Compliance policies and enforcement mechanisms
-- **Metadata** – Supplemental architectural annotations
+The demonstration showed the results of these CALM-related prompts:
 
-## Getting Started
 
-The GitHub Copilot CALM AI-Assistant can help you:
+- `What are nodes?`
 
-1. Create new CALM architecture models
-2. Add nodes, relationships, and interfaces
-3. Validate models against CALM schema (release/1.0)
-4. Generate documentation from your architecture
-5. Apply best practices for architecture modeling
+- `What's the recommended way to model a database relationship?`
 
-## CALM Schema Version
+- `create architecture named “My Business System” in docs/sample.architecture.json with a actor node called "The User" and one system node called "The Application".  Connect the two nodes with an interface.`
 
-This repository uses CALM schema version: **release/1.0**
+- `add a database node called "The Database" with description "The Application Database" and connect "The Application" to the database.`
+
+- `create architecture documentation in docs/calm/html`
+
+
 
 ## Resources
 
-- [FINOS CALM Project](https://github.com/finos/architecture-as-code)
-- [CALM Specification](https://github.com/finos/architecture-as-code/tree/main/calm)
+- [FINOS CALM Documentation](https://calm.finos.org)
+- [FINOS CALM Project Repo](https://github.com/finos/architecture-as-code)
 
----
-
-*This repository is for demonstration purposes to showcase AI-assisted architecture modeling with CALM.*
