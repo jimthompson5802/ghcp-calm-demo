@@ -21,7 +21,7 @@ The demonstration showed the results of these CALM-related prompts:
 
 - `What's the recommended way to model a database relationship?`
 
-- `create architecture named “My Business System” in docs/sample.architecture.json with a actor node called "The User" and one system node called "The Application".  Connect the two nodes with an interface.`
+- `create architecture named “My Business System” in docs/sample_ghcp.architecture.json with a actor node called "The GHCP User" and one system node called "The Application".  Connect the two nodes with an interface.`
 
 - `add a database node called "The Database" with description "The Application Database" and connect "The Application" to the database.`
 
