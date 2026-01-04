@@ -1,0 +1,26 @@
+{
+  "id": "nodes/the-database",
+  "title": "The Database",
+  "description": "Details",
+  "source": "@site/docs/nodes/the-database.md",
+  "sourceDirName": "nodes",
+  "slug": "/nodes/the-database",
+  "permalink": "/nodes/the-database",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "the-database",
+    "title": "The Database"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "The Application",
+    "permalink": "/nodes/the-application"
+  },
+  "next": {
+    "title": "User To App",
+    "permalink": "/relationships/user-to-app"
+  }
+}

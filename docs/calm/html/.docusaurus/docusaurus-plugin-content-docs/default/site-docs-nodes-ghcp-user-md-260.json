@@ -1,0 +1,26 @@
+{
+  "id": "nodes/ghcp-user",
+  "title": "The GHCP User",
+  "description": "Details",
+  "source": "@site/docs/nodes/ghcp-user.md",
+  "sourceDirName": "nodes",
+  "slug": "/nodes/ghcp-user",
+  "permalink": "/nodes/ghcp-user",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ghcp-user",
+    "title": "The GHCP User"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Home",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "The Application",
+    "permalink": "/nodes/the-application"
+  }
+}

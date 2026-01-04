@@ -1,0 +1,26 @@
+{
+  "id": "relationships/user-to-app",
+  "title": "User To App",
+  "description": "Details",
+  "source": "@site/docs/relationships/user-to-app.md",
+  "sourceDirName": "relationships",
+  "slug": "/relationships/user-to-app",
+  "permalink": "/relationships/user-to-app",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "user-to-app",
+    "title": "User To App"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "The Database",
+    "permalink": "/nodes/the-database"
+  },
+  "next": {
+    "title": "App To Database",
+    "permalink": "/relationships/app-to-database"
+  }
+}

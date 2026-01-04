@@ -1,0 +1,22 @@
+{
+  "id": "relationships/app-to-database",
+  "title": "App To Database",
+  "description": "Details",
+  "source": "@site/docs/relationships/app-to-database.md",
+  "sourceDirName": "relationships",
+  "slug": "/relationships/app-to-database",
+  "permalink": "/relationships/app-to-database",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "app-to-database",
+    "title": "App To Database"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "User To App",
+    "permalink": "/relationships/user-to-app"
+  }
+}

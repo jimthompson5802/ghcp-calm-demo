@@ -1,0 +1,81 @@
+{
+  "$schema": "https://calm.finos.org/release/1.1/meta/calm.json",
+  "name": "My Business System",
+  "description": "A business system with a user actor and application",
+  "nodes": [
+    {
+      "unique-id": "ghcp-user",
+      "node-type": "actor",
+      "name": "The GHCP User",
+      "description": "User interacting with the application",
+      "interfaces": [
+        {
+          "unique-id": "user-interface",
+          "interface-type": "url-interface",
+          "url": "https://app.example.com"
+        }
+      ]
+    },
+    {
+      "unique-id": "the-application",
+      "node-type": "system",
+      "name": "The Application",
+      "description": "The main application system",
+      "interfaces": [
+        {
+          "unique-id": "app-endpoint",
+          "interface-type": "url-interface",
+          "url": "https://app.example.com"
+        }
+      ]
+    },
+    {
+      "unique-id": "the-database",
+      "node-type": "database",
+      "name": "The Database",
+      "description": "The Application Database",
+      "interfaces": [
+        {
+          "unique-id": "db-port",
+          "interface-type": "port-interface",
+          "port": 5432
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "unique-id": "user-to-app",
+      "description": "User connects to the application",
+      "protocol": "HTTPS",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "ghcp-user",
+            "interface": "user-interface"
+          },
+          "destination": {
+            "node": "the-application",
+            "interface": "app-endpoint"
+          }
+        }
+      }
+    },
+    {
+      "unique-id": "app-to-database",
+      "description": "Application connects to the database",
+      "protocol": "JDBC",
+      "relationship-type": {
+        "connects": {
+          "source": {
+            "node": "the-application"
+          },
+          "destination": {
+            "node": "the-database",
+            "interface": "db-port"
+          }
+        }
+      }
+    }
+  ]
+}
